@@ -1,0 +1,79 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255,0.3),
+        rgba(255, 255, 255,0.3)
+        ),
+        url("https://images.hdqwalls.com/download/bridge-sunset-minimal-4k-nq-1366x768.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm>label{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.registerInput{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.errorReport{
+    color: red;
+    margin-top: 8px;
+    font-size: 25px;
+}

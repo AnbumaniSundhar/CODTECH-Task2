@@ -1,0 +1,89 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255,0.3),
+        rgba(255, 255, 255,0.3)
+        ),
+        url("https://images.hdqwalls.com/download/hoga-kusten-bron-bridge-5k-gk-1920x1080.jpg");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.loginInput{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.loginButton{
+    cursor: not-allowed;
+    background-color: rgb(245, 150, 150);
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/*  1 dw
+    2 oose
+    3 emiot
+    4
+    5
+    6 wt
+    7
+    8 cbt
+*/
+
